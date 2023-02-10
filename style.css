@@ -20,9 +20,9 @@ ul {
     padding: 0;
 }
 
-img {
+.hero-img {
     width: 500px;
-    border:  #3882F6 solid 5px;
+    border:  #3882F6 solid 4px;
 }
 
 
@@ -49,9 +49,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    padding: 90px;
 }
 
-.text {
+.hero-text {
     margin-right: 100px;
     display: flex;
     flex-direction: column;
@@ -79,4 +81,98 @@ img {
     color: white;
     margin-top: 12px;
     cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.container-imges {
+    display: flex;
+    gap: 24px;
+}
+
+.container-img {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 3px solid;
+    border-radius: 8px;
+}
+
+.img-text {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote-footer {
+    width: 80%;
+    text-align: right;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sign-up .text {
+    text-align: left;
+    margin-right: auto;
+}
+
+.head-sign-up {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.sign-up button {
+    background-color: #3882F6;
+    border: white 2px solid;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    margin-top: 150px;
+    padding: 40px;
+    color: white;
 }
